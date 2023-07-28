@@ -63,5 +63,17 @@
             "tecnología"
         ],
         "esAdmin": false
+    },
+    {
+        "nombre": "Pedro",
+        "apellido": "Pablo",
+        "edad": 61,
+        "email": "pedro@ej.com",
+        "password": "123",
+        "intereses": [
+            "fotografía",
+            "HTML"
+        ],
+        "esAdmin": true
     }
 ]
