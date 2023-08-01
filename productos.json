@@ -1,0 +1,156 @@
+{
+    "camisetas": [
+        {
+            "id": 1,
+            "nombre": "Camiseta estampada",
+            "descripcion": "Camiseta de algodón con diseño estampado",
+            "precio": 25.99,
+            "tallas": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "colores": [
+                "Rojo",
+                "Azul",
+                "Negro"
+            ]
+        },
+        {
+            "id": 2,
+            "nombre": "Camiseta básica",
+            "descripcion": "Camiseta de manga corta de algodón",
+            "precio": 15.50,
+            "tallas": [
+                "XS",
+                "S",
+                "M",
+                "L"
+            ],
+            "colores": [
+                "Blanco",
+                "Negro",
+                "Gris"
+            ]
+        },
+        {
+            "id": 3,
+            "nombre": "Camiseta de rayas",
+            "descripcion": "Camiseta de rayas horizontales de colores",
+            "precio": 18.75,
+            "tallas": [
+                "S",
+                "M",
+                "L"
+            ],
+            "colores": [
+                "Azul y Blanco",
+                "Rojo y Blanco",
+                "Negro y Blanco"
+            ]
+        }
+    ],
+    "pantalones": [
+        {
+            "id": 4,
+            "nombre": "Pantalones vaqueros",
+            "descripcion": "Pantalones vaqueros ajustados y cómodos",
+            "precio": 39.99,
+            "tallas": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "colores": [
+                "Azul oscuro",
+                "Negro",
+                "Gris"
+            ]
+        },
+        {
+            "id": 5,
+            "nombre": "Pantalones de tela",
+            "descripcion": "Pantalones de tela suave y ligera",
+            "precio": 32.50,
+            "tallas": [
+                "S",
+                "M",
+                "L"
+            ],
+            "colores": [
+                "Beige",
+                "Negro",
+                "Verde oliva"
+            ]
+        },
+        {
+            "id": 6,
+            "nombre": "Leggings deportivos",
+            "descripcion": "Leggings elásticos para ejercicio y deporte",
+            "precio": 28.00,
+            "tallas": [
+                "XS",
+                "S",
+                "M",
+                "L"
+            ],
+            "colores": [
+                "Negro",
+                "Gris oscuro",
+                "Azul marino"
+            ]
+        }
+    ],
+    "vestidos": [
+        {
+            "id": 7,
+            "nombre": "Vestido floral",
+            "descripcion": "Vestido elegante con estampado floral",
+            "precio": 55.00,
+            "tallas": [
+                "S",
+                "M",
+                "L"
+            ],
+            "colores": [
+                "Blanco",
+                "Rosa",
+                "Verde"
+            ]
+        },
+        {
+            "id": 8,
+            "nombre": "Vestido de fiesta",
+            "descripcion": "Vestido de noche para ocasiones especiales",
+            "precio": 65.00,
+            "tallas": [
+                "S",
+                "M",
+                "L"
+            ],
+            "colores": [
+                "Negro",
+                "Rojo",
+                "Azul marino"
+            ]
+        },
+        {
+            "id": 9,
+            "nombre": "Vestido playero",
+            "descripcion": "Vestido ligero y fresco para la playa",
+            "precio": 42.50,
+            "tallas": [
+                "S",
+                "M",
+                "L"
+            ],
+            "colores": [
+                "Amarillo",
+                "Turquesa",
+                "Blanco"
+            ]
+        }
+    ]
+}
