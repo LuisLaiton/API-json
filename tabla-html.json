@@ -274,5 +274,330 @@
         "name": "Ar",
         "tag": "<area>",
         "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Tb",
+        "tag": "<table>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Cap",
+        "tag": "<caption>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Cg",
+        "tag": "<colgroup>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Col",
+        "tag": "<col>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "TBd",
+        "tag": "<tbody>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "THd",
+        "tag": "<thead>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "TFt",
+        "tag": "<tfoot>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Tr",
+        "tag": "<tr>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Th",
+        "tag": "<th>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Td",
+        "tag": "<td>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Frm",
+        "tag": "<form>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Lab",
+        "tag": "<label>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "In",
+        "tag": "<input>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "But",
+        "tag": "<button>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Sel",
+        "tag": "<select>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Dtl",
+        "tag": "<datalist>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Og",
+        "tag": "<optgroup>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "O",
+        "tag": "<option>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Ta",
+        "tag": "<textarea>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Out",
+        "tag": "<output>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Prg",
+        "tag": "<progress>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Met",
+        "tag": "<meter>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Fs",
+        "tag": "<fieldset>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Le",
+        "tag": "<legend>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Sc",
+        "tag": "<script>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "NSc",
+        "tag": "<noscript>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Tp",
+        "tag": "<template>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Sl",
+        "tag": "<slot>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Cv",
+        "tag": "<canvas>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Det",
+        "tag": "<details>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Sum",
+        "tag": "<summary>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Dia",
+        "tag": "<dialog>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Art",
+        "tag": "<article>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Sec",
+        "tag": "<section>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Nav",
+        "tag": "<nav>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Hg",
+        "tag": "<hgroup>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "H1",
+        "tag": "<h1>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "H2",
+        "tag": "<h2>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "H3",
+        "tag": "<h3>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "H4",
+        "tag": "<h4>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "H5",
+        "tag": "<h5>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "H6",
+        "tag": "<h6>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Sr",
+        "tag": "<search>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Hdr",
+        "tag": "<header>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Ftr",
+        "tag": "<footer>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Asd",
+        "tag": "<aside>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Add",
+        "tag": "<address>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Rub",
+        "tag": "<ruby>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Rb",
+        "tag": "<rb>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Rt",
+        "tag": "<rt>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Rtc",
+        "tag": "<rtc>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Rp",
+        "tag": "<rp>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Bdi",
+        "tag": "<bdi>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Bdo",
+        "tag": "<bdo>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Ins",
+        "tag": "<ins>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "App",
+        "tag": "<applet>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Acr",
+        "tag": "<acronym>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Fr",
+        "tag": "<frame>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Frs",
+        "tag": "<frameset>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "NFr",
+        "tag": "<noFrame>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Fnt",
+        "tag": "<font>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Big",
+        "tag": "<big>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Blk",
+        "tag": "<blink>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Cen",
+        "tag": "<center>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+    },
+    {
+        "name": "Mrq",
+        "tag": "<marquee>",
+        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
     }
 ]
