@@ -8,164 +8,328 @@
             "attributes": {
                 "Ninguno": ""
             },
-            "example": "<!DOCTYPE html>\n<html>\n<head>\n<title>Título del Documento</title>\n</head>\n<body>\n<h1>Hola, mundo!</h1>\n</body>\n</html>"
+            "example": "<!DOCTYPE html>\n\t<html>\n\t\t<head>\n\t\t\t<title>Título del Documento</title>\n\t\t</head>\n\t\t<body>\n\t\t\t<h1>Hola, mundo!</h1>\n\t\t</body>\n\t</html>"
         }
     },
     {
         "name": "Hd",
         "tag": "<head>",
         "group": "Documento",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Define la sección de metadatos y enlaces a recursos externos en un documento HTML. Esta sección no es visible en la página web.",
+            "attributes": {
+                "Ninguno": ""
+            },
+            "example": "\n<head>\n\t<title>Título de la Página</title>\n\t<meta charset='UTF-8'>\n\t<meta name='description' content='Descripción de la página'>\n\t<link rel='stylesheet' href='estilos.css'>\n</head>"
+        }
     },
     {
         "name": "Bd",
         "tag": "<body>",
         "group": "Documento",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Define la sección del cuerpo visible de un documento HTML, que contiene todo el contenido que se mostrará en la página web.",
+            "attributes": {
+                "Ninguno": ""
+            },
+            "example": "\n<body>\n\t<h1>Hola, mundo!</h1>\n\t<p>Este es un párrafo de ejemplo.</p>\n\t<img src='imagen.jpg' alt='Imagen de ejemplo'>\n</body>"
+        }
     },
     {
         "name": "Ti",
         "tag": "<title>",
         "group": "Metadatos",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Define el título de la página web, que se muestra en la pestaña del navegador y puede ser utilizado por motores de búsqueda y marcadores.",
+            "attributes": {
+                "Ninguno": ""
+            },
+            "example": "<title>Mi Página Web</title>"
+        }
     },
     {
         "name": "Bs",
         "tag": "<base>",
         "group": "Metadatos",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Establece la URL base para los enlaces relativos en una página web, proporcionando una referencia común para todas las rutas relativas.",
+            "attributes": {
+                "href": ":URL base",
+                "target": ":determina dónde se abrirán los enlaces"
+            },
+            "example": "<base href='https://www.ejemplo.com/' target='_blank'>"
+        }
     },
     {
         "name": "Lk",
         "tag": "<link>",
         "group": "Metadatos",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Establece una relación entre el documento HTML y un recurso externo, como una hoja de estilos CSS o un icono.",
+            "attributes": {
+                "rel": ":define la relación del enlace",
+                "href": ":URL del recurso",
+                "type": ":tipo MIME del recurso",
+                "sizes": ":tamaños de iconos para íconos"
+            },
+            "example": "<link rel='stylesheet' href='estilos.css' type='text/css'>"
+        }
     },
     {
         "name": "Mt",
         "tag": "<meta>",
         "group": "Metadatos",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Proporciona metadatos y configuraciones adicionales sobre el documento HTML, como la codificación de caracteres, la descripción y palabras clave.",
+            "attributes": {
+                "charset": ":codificación de caracteres",
+                "name": ":nombre del metadato",
+                "content": ":contenido del metadato"
+            },
+            "example": "\n<meta charset='UTF-8'>\n<meta name='description' content='Una descripción de la página'>\n<meta name='keywords' content='HTML, CSS, diseño web'>"
+        }
     },
     {
         "name": "St",
         "tag": "<style>",
         "group": "Metadatos",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Define reglas de estilo en línea directamente dentro del documento HTML para aplicar estilos a elementos específicos.",
+            "attributes": {
+                "Ninguno": ""
+            },
+            "example": "\n<style>\n\th1 {\n\t\tcolor: blue;\n\t}\n\tp {\n\t\tfont-size: 16px;\n\t\tline-height: 1.5;\n\t}\n</style>"
+        }
     },
     {
         "name": "P",
         "tag": "<p>",
         "group": "Agrupación",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Define un párrafo de texto.",
+            "attributes": {
+                "Ninguno": ""
+            },
+            "example": "\n<p>Este es un ejemplo de párrafo en HTML. Los párrafos se utilizan para estructurar el contenido de manera legible y organizada.</p>\n<p>Otro párrafo de ejemplo que sigue al primero.</p>"
+        }
     },
     {
         "name": "Hr",
         "tag": "<hr>",
         "group": "Agrupación",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Crea una línea horizontal, a menudo utilizada para separar secciones de contenido.",
+            "attributes": {
+                "Ninguno": ""
+            },
+            "example": "<hr>"
+        }
     },
     {
         "name": "Pre",
         "tag": "<pre>",
         "group": "Agrupación",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Muestra el texto tal como está escrito en el código fuente, preservando los espacios y saltos de línea.",
+            "attributes": {
+                "Ninguno": ""
+            },
+            "example": "\n<pre>\n\tfunction saludar() {\n\t\tconsole.log('¡Hola, mundo!');\n\t}\n</pre>"
+        }
     },
     {
         "name": "Bq",
         "tag": "<blockquote>",
         "group": "Agrupación",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Define una cita en bloque, que se utiliza para resaltar un fragmento de texto que es una cita de otro autor o fuente.",
+            "attributes": {
+                "cite": ": URL de la fuente de la cita, opcional"
+            },
+            "example": "\n<blockquote>\n\t'La educación es el pasaporte hacia el futuro, el mañana pertenece a aquellos que se preparan para él hoy.'\n\t<cite>Malcolm X</cite>\n</blockquote>"
+        }
     },
     {
         "name": "Ol",
         "tag": "<ol>",
         "group": "Agrupación",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Crea una lista ordenada, donde los elementos se numeran automáticamente en orden secuencial.",
+            "attributes": {
+                "Ninguno": ""
+            },
+            "example": "\n<ol>\n\t<li>Lavar los platos</li>\n\t<li>Hacer la cama</li>\n\t<li>Ir de compras</li>\n</ol>"
+        }
     },
     {
         "name": "Ul",
         "tag": "<ul>",
         "group": "Agrupación",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Crea una lista desordenada, donde los elementos no tienen un orden específico y generalmente se muestran con viñetas.",
+            "attributes": {
+                "Ninguno": ""
+            },
+            "example": "\n<ul>\n\t<li>Manzanas</li>\n\t<li>Leche</li>\n\t<li>Pan</li>\n</ul>"
+        }
     },
     {
         "name": "Li",
         "tag": "<li>",
         "group": "Agrupación",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Define un elemento en una lista (ya sea ordenada o desordenada).",
+            "attributes": {
+                "Ninguno": ""
+            },
+            "example": "<li>Manzanas</li>"
+        }
     },
     {
         "name": "Dl",
         "tag": "<dl>",
         "group": "Agrupación",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": " Define un término dentro de una lista de definición (<dl>) en una estructura de glosario.",
+            "attributes": {
+                "Ninguno": ""
+            },
+            "example": "\n<dl>\n\t<dt>HTML</dt>\n\t<dd>Lenguaje de Marcado de Hipertexto utilizado para estructurar contenido en la web.</dd>\n\t<dt>CSS</dt>\n\t<dd>Hojas de Estilo en Cascada, se utiliza para dar estilo y diseño a las páginas web.</dd>\n</dl>"
+        }
     },
     {
         "name": "Dt",
         "tag": "<dt>",
         "group": "Agrupación",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Crea una lista de definiciones, donde cada término se define o describe en detalle.",
+            "attributes": {
+                "Ninguno": ""
+            },
+            "example": "\n<dt>HTML</dt>\n<dd>Lenguaje de Marcado de Hipertexto utilizado para estructurar contenido en la web.</dd>"
+        }
     },
     {
         "name": "Dd",
         "tag": "<dd>",
         "group": "Agrupación",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Define la descripción o definición de un término dentro de una lista de definición (<dl>) en una estructura de glosario.",
+            "attributes": {
+                "Ninguno": ""
+            },
+            "example": "\n<dt>HTML</dt>\n<dd>Lenguaje de Marcado de Hipertexto utilizado para estructurar contenido en la web.</dd>"
+        }
     },
     {
         "name": "Fi",
         "tag": "<figure>",
         "group": "Agrupación",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Se utiliza para agrupar contenido multimedia, como imágenes, ilustraciones, gráficos, diagramas, etc., junto con sus correspondientes elementos de descripción (<figcaption>).",
+            "attributes": {
+                "Ninguno": ""
+            },
+            "example": "\n<figure>\n\t<img src='imagen.jpg' alt='Imagen de ejemplo'>\n\t<figcaption>Una ilustración de ejemplo.</figcaption>\n</figure>"
+        }
     },
     {
         "name": "Fc",
         "tag": "<figcaption>",
         "group": "Agrupación",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Se utiliza para proporcionar una leyenda o descripción para el contenido multimedia contenido dentro de la etiqueta <figure>.",
+            "attributes": {
+                "Ninguno": ""
+            },
+            "example": "<figcaption>Una ilustración de ejemplo.</figcaption>"
+        }
     },
     {
         "name": "Dv",
         "tag": "<div>",
         "group": "Agrupación",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Crea un contenedor genérico en el que se pueden agrupar y organizar otros elementos HTML, permitiendo aplicar estilos y manipularlos conjuntamente.",
+            "attributes": {
+                "Ninguno": ""
+            },
+            "example": "\n<div id='contenedor'>\n\t<h1>Título</h1>\n\t<p>Este es un párrafo dentro del contenedor.</p>\n</div>"
+        }
     },
     {
         "name": "Mn",
         "tag": "<main>",
         "group": "Agrupación",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Define el contenido principal o central de una página web, excluyendo elementos de encabezado, pie de página y barras laterales. Debe contener el contenido principal que es único para cada página.",
+            "attributes": {
+                "Ninguno": ""
+            },
+            "example": "\n<main id='principal'>\n\t<h1>Título</h1>\n\t<p>Este es un párrafo dentro del contenedor.</p>\n</main>"
+        }
     },
     {
         "name": "A",
         "tag": "<a>",
         "group": "Textual",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Crea un enlace hipertexto que permite a los usuarios navegar entre diferentes páginas o recursos dentro del mismo sitio web o hacia sitios externos.",
+            "attributes": {
+                "href": ": URL de destino",
+                "target": ": determina cómo se abrirá el enlace",
+                "title": ": texto descriptivo para información adicional"
+            },
+            "example": "<a href='pagina.html' target='_blank' title='Ir a la página'>esta página</a>"
+        }
     },
     {
         "name": "Em",
         "tag": "<em>",
         "group": "Textual",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Marca el texto como enfatizado, generalmente se representa en itálica para resaltar su importancia.",
+            "attributes": {
+                "Ninguno": ""
+            },
+            "example": "\n<p>El <em>éxito</em> no es el final, el <em>fracaso</em> no es fatal</p>"
+        }
     },
     {
         "name": "Str",
         "tag": "<strong>",
         "group": "Textual",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Marca el texto como enfatizado de manera fuerte, generalmente se representa en negrita para indicar un énfasis más destacado que <em>.",
+            "attributes": {
+                "Ninguno": ""
+            },
+            "example": "\n<p>La <strong>perseverancia</strong> es el camino hacia el éxito.</p>"
+        }
     },
     {
         "name": "Sm",
         "tag": "<small>",
         "group": "Textual",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Define un texto con una fuente más pequeña que el texto circundante, lo que se utiliza para indicar que el contenido es menos importante o para mostrar notas a pie de página.",
+            "attributes": {
+                "Ninguno": ""
+            },
+            "example": "\n<p><small><sup>[1]</sup></small> Esta es una nota de pie de página</p>"
+        }
     },
     {
         "name": "S",
         "tag": "<s>",
         "group": "Textual",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "permite marcar fragmentos de texto para destacar su irrelevancia en la actualidad. No incluyen las ediciones de documentos: marcar un fragmento de texto como eliminado, o destacar un nuevo fragmento añadido. Para eso, tenemos las etiquetas <ins> y <del>.",
+            "attributes": {
+                "Ninguno": ""
+            },
+            "example": "<p>Precio de subscripción: <s>5.99€</s> <strong>¡3.99€!</strong></p>"
+        }
     },
     {
         "name": "Ci",
