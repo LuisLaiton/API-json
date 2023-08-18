@@ -3,7 +3,13 @@
         "name": "H",
         "tag": "<html>",
         "group": "Documento",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Define el comienzo y el final de un documento HTML.",
+            "attributes": {
+                "Ninguno": ""
+            },
+            "example": "<!DOCTYPE html>\n<html>\n<head>\n<title>Título del Documento</title>\n</head>\n<body>\n<h1>Hola, mundo!</h1>\n</body>\n</html>"
+        }
     },
     {
         "name": "Hd",
