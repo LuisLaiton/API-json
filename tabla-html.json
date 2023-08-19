@@ -335,217 +335,457 @@
         "name": "Ci",
         "tag": "<cite>",
         "group": "Textual",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Define una referencia o título de una obra citada, como un libro, película, canción, artículo, etc.",
+            "attributes": {
+                "Ninguno": ""
+            },
+            "example": "\n<p>La canción <cite>Imagine</cite> de John Lennon es un himno por la paz.</p>"
+        }
     },
     {
         "name": "Q",
         "tag": "<q>",
         "group": "Textual",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Define una cita corta en línea, generalmente se representa entre comillas para indicar que es una cita textual.",
+            "attributes": {
+                "Ninguno": ""
+            },
+            "example": "\n<p>El autor dijo: <q>La vida es lo que sucede mientras haces otros planes.</q></p>"
+        }
     },
     {
         "name": "Dfn",
         "tag": "<dfn>",
         "group": "Textual",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Define un término en un texto que se refiere a su definición. Es útil para indicar que un término tiene un significado específico en el contexto de la página o del sitio.",
+            "attributes": {
+                "Ninguno": ""
+            },
+            "example": "\n<p>El <dfn>software</dfn> se refiere a los programas y aplicaciones que se ejecutan en una computadora.</p>"
+        }
     },
     {
         "name": "Ab",
         "tag": "<abbr>",
         "group": "Textual",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Define una abreviatura o acrónimo y opcionalmente proporciona su forma completa o significado cuando el usuario pasa el cursor sobre la abreviatura.",
+            "attributes": {
+                "title": ": texto descriptivo que aparece como información adicional cuando el usuario pasa el cursor sobre la abreviatura"
+            },
+            "example": "\n<p><abbr title='World Wide Web'>WWW</abbr> es una parte fundamental de Internet.</p>"
+        }
     },
     {
         "name": "Da",
         "tag": "<data>",
         "group": "Textual",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Define un valor numérico o una fecha que representa datos en el contenido, generalmente utilizado para mostrar información numérica con significado contextual.",
+            "attributes": {
+                "value": ": el valor numérico o de fecha",
+                "title": ": texto descriptivo para información adicional"
+            },
+            "example": "\n<p>El terremoto tuvo una magnitud de <data value='7.5' title='Escala de Richter'>7.5</data> en la escala de Richter.</p>"
+        }
     },
     {
         "name": "Tim",
         "tag": "<time>",
         "group": "Textual",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Define un momento en el tiempo, como una fecha, hora o combinación de ambas. Puede representar fechas, horas, duraciones, fechas con zona horaria, etc.",
+            "attributes": {
+                "datetime": ": atributo obligatorio que especifica el valor de la marca de tiempo en formato válido"
+            },
+            "example": "\n<p>La conferencia comienza el <time datetime='2023-08-20T09:00:00-04:00'>20 de agosto a las 9:00 AM</time>.</p>"
+        }
     },
     {
         "name": "Co",
         "tag": "<code>",
         "group": "Textual",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Se utiliza para mostrar fragmentos de código o texto en línea, generalmente se representa en una fuente de monoespacio para indicar que es código.",
+            "attributes": {
+                "Ninguno": ""
+            },
+            "example": "\n<p>Puedes utilizar el comando <code>git commit -m 'Mensaje de commit'</code> para hacer un commit en Git.</p>"
+        }
     },
     {
         "name": "Va",
         "tag": "<var>",
         "group": "Textual",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Define una variable o expresión matemática en el contexto de un texto. Se utiliza para mostrar términos que podrían ser reemplazados por valores variables.",
+            "attributes": {
+                "Ninguno": ""
+            },
+            "example": "\n<p>Si <var>x</var> es el número de elementos, entonces el resultado es <var>x * 2</var>.</p>"
+        }
     },
     {
         "name": "Sa",
         "tag": "<samp>",
         "group": "Textual",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Define una muestra de salida o resultado de un programa o comando, generalmente se representa en una fuente de monoespacio para indicar que es salida de código.",
+            "attributes": {
+                "Ninguno": ""
+            },
+            "example": "\n<p>La salida del comando <samp>ls -l</samp> será una lista detallada de archivos y directorios.</p>"
+        }
     },
     {
         "name": "Kb",
         "tag": "<kbd>",
         "group": "Textual",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Define una entrada del teclado, generalmente se representa en una fuente de monoespacio para indicar que es una tecla o combinación de teclas.",
+            "attributes": {
+                "Ninguno": ""
+            },
+            "example": "\n<p>Para guardar un archivo en la mayoría de los programas, presiona <kbd>Ctrl</kbd> + <kbd>S</kbd>.</p>"
+        }
     },
     {
         "name": "Sub",
         "tag": "<sub>",
         "group": "Textual",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Define texto que se mostrará en una posición ligeramente inferior al texto circundante, a menudo se usa para indicar subíndices como en fórmulas químicas o ecuaciones.",
+            "attributes": {
+                "Ninguno": ""
+            },
+            "example": "\n<p>En la fórmula H<sub>2</sub>O, el subíndice indica la cantidad de átomos de hidrógeno.</p>"
+        }
     },
     {
         "name": "Sup",
         "tag": "<sup>",
         "group": "Textual",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Define texto que se mostrará en una posición ligeramente superior al texto circundante, a menudo se utiliza para indicar superíndices como en fórmulas matemáticas o unidades.",
+            "attributes": {
+                "Ninguno": ""
+            },
+            "example": "\n<p>La ecuación E = mc<sup>2</sup> es famosa en la teoría de la relatividad.</p>"
+        }
     },
     {
         "name": "I",
         "tag": "<i>",
         "group": "Textual",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Define texto en itálica, indicando un énfasis visual sin implicar necesariamente un cambio en el significado del contenido.",
+            "attributes": {
+                "Ninguno": ""
+            },
+            "example": "<p>La <i>creatividad</i> es la inteligencia divirtiéndose.</p>"
+        }
     },
     {
         "name": "B",
         "tag": "<b>",
         "group": "Textual",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Define texto en negrita, indicando un énfasis visual más fuerte que la etiqueta <i>. Antes se usaba para aplicar un énfasis visual, pero en la actualidad se recomienda utilizar la etiqueta <strong> para indicar énfasis importante o relevante.",
+            "attributes": {
+                "Ninguno": ""
+            },
+            "example": "<p>Este es un <b>aviso importante</b> para todos los usuarios.</p>"
+        }
     },
     {
         "name": "U",
         "tag": "<u>",
         "group": "Textual",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Define texto subrayado, indicando que el texto debería aparecer con una línea debajo de él. Sin embargo, en la actualidad, se recomienda evitar el uso excesivo de subrayados, ya que puede causar confusión con enlaces.",
+            "attributes": {
+                "Ninguno": ""
+            },
+            "example": "<p>Este es un <u>texto subrayado</u> para resaltar.</p>"
+        }
     },
     {
         "name": "Mk",
         "tag": "<mark>",
         "group": "Textual",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Define texto resaltado, generalmente con un color de fondo amarillo para indicar que el texto está marcado o resaltado. Se utiliza para resaltar partes importantes del contenido.",
+            "attributes": {
+                "Ninguno": ""
+            },
+            "example": "\n<p>Por favor, presta atención al siguiente <mark>recordatorio importante</mark>.</p>"
+        }
     },
     {
         "name": "Sp",
         "tag": "<span>",
         "group": "Textual",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Define un contenedor genérico en línea que no tiene significado semántico por sí mismo, pero que puede utilizarse para aplicar estilos o manipular contenido específico.",
+            "attributes": {
+                "Ninguno": ""
+            },
+            "example": "\n<p>Este es un <span style='color: blue;'>texto con estilo</span></p>"
+        }
     },
     {
         "name": "Br",
         "tag": "<br>",
         "group": "Textual",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Define un salto de línea en el contenido, forzando un cambio de línea sin un nuevo párrafo. Es una etiqueta de autierre, lo que significa que no tiene etiqueta de cierre.",
+            "attributes": {
+                "Ninguno": ""
+            },
+            "example": "\n<p>Este es un párrafo con una línea.<br>Y aquí está la siguiente línea después del salto.</p>"
+        }
     },
     {
         "name": "Wbr",
         "tag": "<wbr>",
         "group": "Textual",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Define un punto de inserción opcional en una palabra o cadena de texto, permitiendo que el navegador decida dónde realizar un salto de línea o división de palabra si el contenido se ajusta en varios dispositivos o tamaños de pantalla.",
+            "attributes": {
+                "Ninguno": ""
+            },
+            "example": "<p>La palabra larga es: supercalifragilistico<wbr>espialidoso.</p>"
+        }
     },
     {
         "name": "Img",
         "tag": "<img>",
         "group": "Multimedia",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Inserta una imagen en la página web, mostrando una representación gráfica en línea.",
+            "attributes": {
+                "src": ": obligatorio, URL de la imagen",
+                "alt": ": texto alternativo, proporciona una descripción de la imagen para accesibilidad y cuando la imagen no se carga",
+                "width": ": ancho de la imagen en píxeles o porcentaje",
+                "height": ": altura de la imagen en píxeles o porcentaje"
+            },
+            "example": "<img src='imagen.jpg' alt='Una imagen de un paisaje' width='300' height='200'>"
+        }
     },
     {
         "name": "Pic",
         "tag": "<picture>",
         "group": "Multimedia",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Proporciona una manera flexible de mostrar diferentes imágenes o recursos multimedia según las características del dispositivo, como el tamaño de la pantalla o la densidad de píxeles. Es especialmente útil para implementar imágenes responsivas.",
+            "attributes": {
+                "Ninguno": ""
+            },
+            "example": "\n<picture>\n\t<source media='(min-width: 800px)' srcset='imagen-grande.jpg'>\n\t<source media='(min-width: 400px)' srcset='imagen-mediana.jpg'>\n\t<img src='imagen-pequena.jpg' alt='Imagen adaptativa'>\n</picture>"
+        }
     },
     {
         "name": "Ifr",
         "tag": "<iframe>",
         "group": "Multimedia",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Inserta un marco en línea que puede contener contenido incrustado, como una página web externa o un documento multimedia, dentro de la página actual.",
+            "attributes": {
+                "src": ": obligatorio, URL de la página o recurso a incrustar",
+                "width": ": ancho del iframe en píxeles o porcentaje",
+                "height": ": altura del iframe en píxeles o porcentaje"
+            },
+            "example": "\n<iframe src='https://www.ejemplo.com' width='800' height='600'></iframe>"
+        }
     },
     {
         "name": "Emb",
         "tag": "<embed>",
         "group": "Multimedia",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Incrusta contenido multimedia, como audio, video o animaciones, directamente en la página web. Puede mostrar contenido en el navegador sin necesidad de un reproductor externo.",
+            "attributes": {
+                "src": ": obligatorio, URL del recurso a incrustar",
+                "type": ": obligatorio, tipo MIME del contenido",
+                "width": ": ancho del objeto incrustado en píxeles o porcentaje",
+                "height": ": altura del objeto incrustado en píxeles o porcentaje"
+            },
+            "example": "\n<embed src='video.mp4' type='video/mp4' width='640' height='360'>"
+        }
     },
     {
         "name": "Obj",
         "tag": "<object>",
         "group": "Multimedia",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Incrusta contenido multimedia o plugins en la página web, como Flash, imágenes SVG o aplicaciones incrustadas. Puede mostrar contenido en el navegador y proporcionar contenido alternativo en caso de que el objeto no sea compatible.",
+            "attributes": {
+                "data": ": obligatorio, URL del recurso a incrustar",
+                "type": ": obligatorio, tipo MIME del contenido",
+                "width": ": ancho del objeto incrustado en píxeles o porcentaje",
+                "height": ": altura del objeto incrustado en píxeles o porcentaje"
+            },
+            "example": "\n<object data='animacion.svg' type='image/svg+xml' width='300' height='200'>\n\t<img src='imagen-alternativa.png' alt='Imagen alternativa si el objeto no se muestra'>\n</object>"
+        }
     },
     {
         "name": "Par",
         "tag": "<param>",
         "group": "Multimedia",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Define parámetros específicos para ser utilizados con elementos <object> o <applet>. Los parámetros proporcionan información adicional al objeto o la aplicación incrustados.",
+            "attributes": {
+                "name": ": obligatorio, nombre del parámetro",
+                "value": ": obligatorio, valor del parámetro"
+            },
+            "example": "\n<object data='video.swf' type='application/x-shockwave-flash' width='400' height='300'>\n\t<param name='movie' value='video.swf'>\n\t<param name='loop' value='true'>\n</object>"
+        }
     },
     {
         "name": "Vi",
         "tag": "<video>",
         "group": "Multimedia",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Incrusta y reproduce contenido de video en la página web. Puede mostrar formatos de video compatibles y proporcionar controles de reproducción.",
+            "attributes": {
+                "src": ": obligatorio, URL del archivo de video",
+                "width": ": ancho del video en píxeles o porcentaje",
+                "height": ": altura del video en píxeles o porcentaje",
+                "controls": ": opcional, muestra controles de reproducción"
+            },
+            "example": "\n<video width='640' height='360' controls>\n\t<source src='video.mp4' type='video/mp4'>\n\t<source src='video.webm' type='video/webm'>\n\tTu navegador no admite la reproducción de videos.\n</video>"
+        }
     },
     {
         "name": "Au",
         "tag": "<audio>",
         "group": "Multimedia",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Incrusta y reproduce contenido de audio en la página web. Puede mostrar formatos de audio compatibles y proporcionar controles de reproducción.",
+            "attributes": {
+                "src": ": obligatorio, URL del archivo de audio",
+                "controls": ": opcional, muestra controles de reproducción"
+            },
+            "example": "\n<audio controls>\n\t<source src='audio.mp3' type='audio/mpeg'>\n\t<source src='audio.ogg' type='audio/ogg'>\n\tTu navegador no admite la reproducción de audio.\n</audio>"
+        }
     },
     {
         "name": "Src",
         "tag": "<source>",
         "group": "Multimedia",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Define una fuente alternativa de medios, como imágenes, audio o video, dentro de los elementos <audio>, <video> o <picture>. Permite especificar diferentes formatos de medios para garantizar la compatibilidad en varios navegadores.",
+            "attributes": {
+                "src": ": obligatorio, URL del archivo de medios",
+                "type": ": obligatorio, tipo MIME del contenido"
+            },
+            "example": "\n<audio controls>\n\t<source src='audio.mp3' type='audio/mpeg'>\n\t<source src='audio.ogg' type='audio/ogg'>\n\tTu navegador no admite la reproducción de audio.\n</audio>"
+        }
     },
     {
         "name": "Trk",
         "tag": "<track>",
         "group": "Multimedia",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Define una pista de texto, como subtítulos o descripciones de audio, para elementos multimedia como <audio> y <video>. Ayuda a proporcionar información adicional y accesibilidad al contenido multimedia.",
+            "attributes": {
+                "kind": ": obligatorio, tipo de pista, como 'subtitles' para subtítulos o 'captions' para subtítulos ocultos",
+                "src": ": obligatorio, URL del archivo de pista",
+                "srclang": ": obligatorio, idioma de la pista, en formato de código de lenguaje ISO 639-1"
+            },
+            "example": "\n<video width='640' height='360' controls>\n\t<source src='video.mp4' type='video/mp4'>\n\t<track kind='subtitles' src='subtitulos-es.vtt' srclang='es' label='Español'>\n\t<track kind='subtitles' src='subtitulos-en.vtt' srclang='en' label='English'>\n\tTu navegador no admite la reproducción de videos.\n</video>"
+        }
     },
     {
         "name": "Map",
         "tag": "<map>",
         "group": "Multimedia",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Define áreas sensibles en una imagen que actúan como enlaces o áreas activas. Estas áreas se pueden utilizar para crear mapas de imágenes interactivos.Se utiliza en combinación con la etiqueta <img> para crear áreas interactivas en una imagen.",
+            "attributes": {
+                "name": ": obligatorio, nombre del mapa que se utilizará en la etiqueta <img>"
+            },
+            "example": "\n<img src='plano.png' alt='Plano del edificio' usemap='#edificio'>\n\t<map name='edificio'>\n\t<area shape='rect' coords='100,50,200,150' href='planta1.html' alt='Planta 1'>\n\t<area shape='rect' coords='250,50,350,150' href='planta2.html' alt='Planta 2'>\n</map>"
+        }
     },
     {
         "name": "Ar",
         "tag": "<area>",
         "group": "Multimedia",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Define una región sensible en un mapa de imagen creado con la etiqueta <map>. Estas áreas pueden ser enlazadas a otras páginas o acciones, permitiendo la interacción con partes específicas de una imagen.",
+            "attributes": {
+                "shape": ": obligatorio, forma de la zona sensible, como 'rect' para rectangular, 'circle' para circular o 'poly' para poligonal",
+                "coords": ": obligatorio, coordenadas que definen la forma y posición de la zona sensible",
+                "href": ": obligatorio, URL del enlace al que se redirigirá cuando se haga clic en la zona sensible",
+                "alt": ": opcional, texto alternativo para accesibilidad"
+            },
+            "example": "\n<img src='plano.png' alt='Plano del edificio' usemap='#edificio'>\n\t<map name='edificio'>\n\t<area shape='rect' coords='100,50,200,150' href='planta1.html' alt='Planta 1'>\n\t<area shape='rect' coords='250,50,350,150' href='planta2.html' alt='Planta 2'>\n</map>"
+        }
     },
     {
         "name": "Tb",
         "tag": "<table>",
         "group": "Tablas",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Define una tabla en la página web, que puede contener filas y celdas para organizar datos en una cuadrícula bidimensional.",
+            "attributes": {
+                "border": ": opcional, especifica el ancho del borde de la tabla en píxeles",
+                "width": ": opcional, establece el ancho de la tabla en píxeles o porcentaje"
+            },
+            "example": "\n<table border='1' width='50%'>\n\t<tr>\n\t\t<th>Nombre</th>\n\t\t<th>Edad</th>\n\t</tr>\n\t<tr>\n\t\t<td>Juan</td>\n\t\t<td>25</td>\n\t</tr>\n\t<tr>\n\t\t<td>María</td>\n\t\t<td>30</td>\n\t</tr\n</table>"
+        }
     },
     {
         "name": "Cap",
         "tag": "<caption>",
         "group": "Tablas",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Define una leyenda o título para una tabla creada con la etiqueta <table>. La leyenda se coloca encima de la tabla y brinda información contextual sobre su contenido. Se coloca como el primer elemento dentro de la etiqueta <table> para proporcionar una descripción o título a la tabla.",
+            "attributes": {
+                "Ninguno": ""
+            },
+            "example": "\n<table border='1' width='50%'>\n\t<caption>Lista de Alumnos</caption>\n\t<tr>\n\t\t<th>Nombre</th>\n\t\t<th>Edad</th>\n\t</tr>\n\t<tr>\n\t\t<td>Juan</td>\n\t\t<td>25</td>\n\t</tr>\n\t<tr>\n\t\t<td>María</td>\n\t\t<td>30</td>\n\t</tr>\n</table>"
+        }
     },
     {
         "name": "Cg",
         "tag": "<colgroup>",
         "group": "Tablas",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Define un grupo de columnas en una tabla creada con la etiqueta <table>. Permite aplicar estilos y atributos a varias columnas de forma conjunta. Se utiliza para aplicar estilos y atributos a columnas específicas de una tabla.",
+            "attributes": {
+                "Ninguno": ""
+            },
+            "example": "\n<table border='1' width='50%'>\n\t<colgroup>\n\t\t<col style='background-color: #f0f0f0;'>\n\t\t<col span='2' style='background-color: #e0e0e0;'>\n\t</colgroup>\n\t<caption>Lista de Alumnos</caption>\n\t<tr>\n\t\t<th>Nombre</th\n\t\t<th>Edad</th\n\t</tr>\n\t<tr>\n\t\t<td>Juan</td\n\t\t<td>25</td\n\t</tr>\n\t<tr>\n\t\t<td>María</td\n\t\t<td>30</td\n\t</tr>\n</table>"
+        }
     },
     {
         "name": "Col",
         "tag": "<col>",
         "group": "Tablas",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Define un estilo y atributos para una columna específica en una tabla creada con la etiqueta <table>. Se utiliza generalmente dentro de la etiqueta <colgroup> para aplicar estilos y atributos a grupos de columnas.",
+            "attributes": {
+                "span": ": opcional, especifica cuántas columnas abarca la etiqueta <col>"
+            },
+            "example": "\n<table border='1' width='50%'>\n\t<colgroup>\n\t\t<col style='background-color: #f0f0f0;'>\n\t\t<col span='2' style='background-color: #e0e0e0;'>\n\t</colgroup>\n\t<caption>Lista de Alumnos</caption>\n\t<tr>\n\t\t<th>Nombre</th\n\t\t<th>Edad</th\n\t</tr>\n\t<tr>\n\t\t<td>Juan</td\n\t\t<td>25</td\n\t</tr>\n\t<tr>\n\t\t<td>María</td\n\t\t<td>30</td\n\t</tr>\n</table>"
+        }
     },
     {
         "name": "TBd",
         "tag": "<tbody>",
         "group": "Tablas",
-        "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi labore voluptates id nemo impedit sunt. Exercitationem quibusdam inventore vel illum in. Aliquam eveniet repudiandae temporibus quibusdam animi ex! Voluptas."
+        "info": {
+            "description": "Define el cuerpo de una tabla creada con la etiqueta <table>. Agrupa las filas de datos en la tabla, separándolas de las filas de encabezado y pie de tabla.",
+            "attributes": {
+                "Ninguno": ""
+            },
+            "example": "\n<table border='1' width='50%'>\n\t<colgroup>\n\t\t<col style='background-color: #f0f0f0;'>\n\t\t<col span='2' style='background-color: #e0e0e0;'>\n\t</colgroup>\n\t<caption>Lista de Alumnos</caption>\n\t<tr>\n\t\t<th>Nombre</th\n\t\t<th>Edad</th\n\t</tr>\n\t<tr>\n\t\t<td>Juan</td\n\t\t<td>25</td\n\t</tr>\n\t<tr>\n\t\t<td>María</td\n\t\t<td>30</td\n\t</tr>\n</table>"
+        }
     },
     {
         "name": "THd",
