@@ -75,5 +75,11 @@
             "HTML"
         ],
         "esAdmin": true
+    },
+    {
+        "nombre": "Alejandro",
+        "apellido": "Acosta",
+        "email": "alecosta206@yahoo.com",
+        "password": "alejo123"
     }
 ]
